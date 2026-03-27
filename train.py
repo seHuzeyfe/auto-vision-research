@@ -8,8 +8,8 @@ import torch
 from ultralytics import YOLO
 
 # ---- CONFIGURATION (agent tunes these) ----
-MODEL = "yolov11_defect_segmentation.pt"  # pretrained model: yolo11n/s/m/l/x
-DATA = r"C:\Users\huzey\Desktop\CV_AgenticTune\v4_dataset\data.yaml"  # dataset YAML path
+MODEL = ""  # pretrained model: yolo11n/s/m/l/x
+DATA = r""  # dataset YAML path
 EPOCHS = 300                    # max epochs (capped by TIME)
 TIME = 0.083                    # training time budget in hours (~5 min)
 PATIENCE = 0                    # early stopping (0 = disabled, time is the budget)
