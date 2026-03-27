@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Experiment artifacts (not git-tracked)
+results.tsv
+run.log
+runs/
+
+v4_dataset
+*.pt
+
+autoresearch
+
+memory/
+plan.md
+claude-mcp.md
+spec.md
+
+.claude/settings.json
+.claude/settings.local.json
